@@ -2,9 +2,9 @@ use libc::{c_char, c_int};
 use std::ffi::{CStr, CString};
 use std::ptr;
 
-use constants::PamResultCode;
-use constants::*;
-use module::{PamItem, PamResult};
+use crate::constants::PamResultCode;
+use crate::constants::*;
+use crate::module::{PamItem, PamResult};
 
 #[allow(missing_copy_implementations)]
 pub enum AppDataPtr {}
